@@ -16,9 +16,9 @@ The feed data fetch from service and saved to database.
 
 Mainly three screens in this demo :- 
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot.png | width=100)
 
-![Screenshot](screenshot1.png)
+![Screenshot](screenshot1.png | width=100)
 
-![Screenshot](screenshot2.png)
+![Screenshot](screenshot2.png | width=100)
 
