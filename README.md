@@ -18,7 +18,7 @@ Mainly three screens in this demo :-
 
 ![Screenshot](screenshot.png)
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot1.png)
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot2.png)
 
