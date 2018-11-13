@@ -94,7 +94,7 @@
 		F37ACF45219A3F9300E55433 /* CoreDataContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataContext.h; sourceTree = "<group>"; };
 		F37ACF46219A3F9300E55433 /* CoreDataContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataContext.m; sourceTree = "<group>"; };
 		F37ACF49219A423B00E55433 /* DemoFeedAppPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoFeedAppPrefixHeader.pch; sourceTree = "<group>"; };
-		F3AB634E219913E500BB6A5D /* HelpersConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelpersConstants.h; path = ../../../../TEWHelpers/tew_helpers/TEWHelpers/Constants/HelpersConstants.h; sourceTree = "<group>"; };
+		F37ACF8C219AEEC500E55433 /* HelpersConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpersConstants.h; sourceTree = "<group>"; };
 		F3AB6353219917BE00BB6A5D /* AuthorDetailsDataHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthorDetailsDataHelper.h; sourceTree = "<group>"; };
 		F3AB6354219917BE00BB6A5D /* AuthorDetailsDataHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthorDetailsDataHelper.m; sourceTree = "<group>"; };
 		F3AB6356219917D100BB6A5D /* PostsDataHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostsDataHelper.h; sourceTree = "<group>"; };
@@ -279,7 +279,7 @@
 		F3AB634D2199138700BB6A5D /* Constants */ = {
 			isa = PBXGroup;
 			children = (
-				F3AB634E219913E500BB6A5D /* HelpersConstants.h */,
+				F37ACF8C219AEEC500E55433 /* HelpersConstants.h */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -351,12 +351,12 @@
 		F3ACB2B52198DF2A002963D0 /* DemoFeedApp */ = {
 			isa = PBXGroup;
 			children = (
-				F37ACF43219A3E5C00E55433 /* Resource */,
-				F37ACF42219A3E4000E55433 /* Delegate */,
 				F3AB634F2199163100BB6A5D /* Object */,
-				F3ACB30D2198F3CB002963D0 /* Supporting Files */,
-				F3ACB2F32198E432002963D0 /* Helpers */,
+				F37ACF42219A3E4000E55433 /* Delegate */,
 				F3ACB2ED2198E062002963D0 /* ViewController */,
+				F3ACB2F32198E432002963D0 /* Helpers */,
+				F37ACF43219A3E5C00E55433 /* Resource */,
+				F3ACB30D2198F3CB002963D0 /* Supporting Files */,
 				F3ACB2C82198DF2A002963D0 /* main.m */,
 			);
 			path = DemoFeedApp;
