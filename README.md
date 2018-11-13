@@ -2,6 +2,7 @@
 This is a demo applictaion thats will display posts and the details of the from feed service.
 
 ### Prerequisites
+* XCode 10 
 
 
 List of posts
