@@ -1,0 +1,10 @@
+//
+//  Development.xcconfig
+//  DemoFeedApp
+//
+//  Created by Siju Satheesachandran on 11/11/2018.
+//  Copyright © 2018 Siju Satheesachandran. All rights reserved.
+//
+
+server_url      = jsonplaceholder.typicode.com
+protocol        = http

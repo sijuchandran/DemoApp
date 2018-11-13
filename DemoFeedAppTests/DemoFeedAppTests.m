@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "SyncHelper.h"
 
 @interface DemoFeedAppTests : XCTestCase
 
@@ -22,16 +23,61 @@
     // Put teardown code here. This method is called after the invocation of each test method in the class.
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+
+- (void)testAsyncGetPostInfo
+{
+    
+    //Expectation
+    XCTestExpectation *expectation = [self expectationWithDescription:@"Get Post Info from server"];
+    
+    [SyncHelper getPosts:^(bool success){
+        if (success)
+        {
+             [expectation fulfill];
+        }
+        else
+        {
+            
+        }
+    }];
+    [self waitForExpectationsWithTimeout:1 handler:^(NSError *error) {
+        
+        if(error)
+        {
+            XCTFail(@"Expectation Failed with error: %@", error);
+        }
+        
+    }];
+    
 }
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
+- (void) testAsyncGetAuthorDetails
+{
+    
+    //Expectation
+    XCTestExpectation *expectation = [self expectationWithDescription:@"Get Author details from server"];
+    
+    [SyncHelper getDetails:^(bool success){
+        if (success)
+        {
+            [expectation fulfill];
+        }
+        else
+        {
+            
+        }
     }];
+    [self waitForExpectationsWithTimeout:2 handler:^(NSError *error) {
+        
+        if(error)
+        {
+            XCTFail(@"Expectation Failed with error: %@", error);
+        }
+        
+    }];
+    
 }
+
+
 
 @end

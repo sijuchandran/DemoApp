@@ -1,0 +1,31 @@
+//
+//  DemoFeedAppPrefixHeader.pch
+//  DemoFeedApp
+//
+//  Created by Siju Satheesachandran on 12/11/2018.
+//  Copyright © 2018 Siju Satheesachandran. All rights reserved.
+//
+
+#ifndef DemoFeedAppPrefixHeader_pch
+#define DemoFeedAppPrefixHeader_pch
+
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <CoreData/CoreData.h>
+#import <Foundation/Foundation.h>
+#import "NSArray+HOF.h"
+#import "NSArray+HOFC.h"
+#import "CoreDataContext.h"
+
+#endif
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* DemoFeedAppPrefixHeader_pch */
