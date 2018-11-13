@@ -16,6 +16,6 @@ The feed data fetch from service and saved to database.
 
 Mainly three screens in this demo :- 
 
-![Screenshot](screenshot.png) {:height="50%" width="50%"}
+![Screenshot](screenshot.png) 
 
 
