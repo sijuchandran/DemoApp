@@ -16,15 +16,15 @@ The feed data fetch from service and saved to database.
 
 Mainly three screens in this demo :- 
 
-View all posts
+###View all posts
 
 ![Screenshot](screenshot.png) 
 
-Post Details
+###Post Details
 
 ![Screenshot](screenshot1.png) 
 
-Address
+###Address
 
 ![Screenshot](screenshot2.png) 
 
